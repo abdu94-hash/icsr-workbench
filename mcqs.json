@@ -1,0 +1,772 @@
+[
+ {
+  "id": "1.1",
+  "chapter": 1,
+  "chapterTitle": "Introduction and Regulatory Framework",
+  "stem": "An ICSR differs from a clinical case report in that:",
+  "options": [
+   "It is always shorter",
+   "It is structured around standardized data elements with regulated submission timelines",
+   "It contains only confirmed adverse drug reactions",
+   "It cannot be modified once created"
+  ],
+  "answer": 1,
+  "rationale": "The ICSR is a regulatory artifact with structured data elements (E2B), bound submission timelines, and full audit trail. A is incorrect — ICSRs can be lengthy. C is incorrect — ICSRs include suspected reactions and adverse events. D is incorrect — ICSRs are routinely updated through follow-up cycles."
+ },
+ {
+  "id": "1.2",
+  "chapter": 1,
+  "chapterTitle": "Introduction and Regulatory Framework",
+  "stem": "Which document defines the data elements and electronic message specification used to transmit an ICSR between sender and regulator?",
+  "options": [
+   "ICH E2A",
+   "ICH E2B(R3)",
+   "ICH E2D",
+   "ICH E2F"
+  ],
+  "answer": 1,
+  "rationale": "E2B(R3) is the implementation guide for ICSR data elements and message structure. E2A defines clinical safety standards; E2D covers postmarket reporting principles; E2F is the DSUR."
+ },
+ {
+  "id": "1.3",
+  "chapter": 1,
+  "chapterTitle": "Introduction and Regulatory Framework",
+  "stem": "A sales representative learns of a serious adverse event from a physician at a conference. The reporting clock for this case starts:",
+  "options": [
+   "When the case is entered into the safety database",
+   "When the sales representative returns to the office",
+   "On the date of the conference conversation",
+   "When the QPPV signs off on the validity assessment"
+  ],
+  "answer": 2,
+  "rationale": "Day Zero is the date the company first becomes aware of a valid case through any employee or contracted party. Internal routing delays do not pause or reset the clock."
+ },
+ {
+  "id": "1.4",
+  "chapter": 1,
+  "chapterTitle": "Introduction and Regulatory Framework",
+  "stem": "Which of the following is NOT a downstream function of the ICSR?",
+  "options": [
+   "Compliance reporting to regulators",
+   "Input to PSUR/PBRER aggregate analyses",
+   "Determination of drug pricing",
+   "Signal detection"
+  ],
+  "answer": 2,
+  "rationale": "ICSR data does not feed pricing decisions. The other three are core PV functions."
+ },
+ {
+  "id": "1.5",
+  "chapter": 1,
+  "chapterTitle": "Introduction and Regulatory Framework",
+  "stem": "The minimum data needed for a valid ICSR includes:",
+  "options": [
+   "A confirmed diagnosis, named reporter, suspect drug, and lab confirmation",
+   "An identifiable patient, identifiable reporter, suspect product, and suspect event",
+   "A serious adverse event, signed informed consent, dechallenge result, and reporter qualification",
+   "A complete medical history, current medication list, suspect drug, and event onset date"
+  ],
+  "answer": 1,
+  "rationale": "The four validity elements are minimal — identifiable patient, identifiable reporter, suspect product, and suspect event. Confirmed diagnoses, lab values, and complete histories are desirable but not required for validity."
+ },
+ {
+  "id": "2.1",
+  "chapter": 2,
+  "chapterTitle": "Sources of ICSRs",
+  "stem": "A patient enrolled in a company-sponsored disease management program reports a headache to the program nurse during a routine check-in call. This is classified as:",
+  "options": [
+   "Spontaneous",
+   "Solicited",
+   "Literature",
+   "Compassionate use"
+  ],
+  "answer": 1,
+  "rationale": "The disease management program is an organized data collection activity. Reports arising from such programs are solicited per GVP VI."
+ },
+ {
+  "id": "2.2",
+  "chapter": 2,
+  "chapterTitle": "Sources of ICSRs",
+  "stem": "Under GVP VI, the minimum required cadence for systematic literature surveillance in major databases is:",
+  "options": [
+   "Daily",
+   "Weekly",
+   "Monthly",
+   "Quarterly"
+  ],
+  "answer": 1,
+  "rationale": "Weekly is the minimum cadence specified in GVP VI for active substance literature surveillance."
+ },
+ {
+  "id": "2.3",
+  "chapter": 2,
+  "chapterTitle": "Sources of ICSRs",
+  "stem": "A sponsor receives an extract of cases from FAERS containing twelve cases involving its product. Five of these are duplicates of cases already in the sponsor's database. The correct action is:",
+  "options": [
+   "Submit all twelve cases as new ICSRs",
+   "Reject the FAERS extract because duplicates indicate an FDA error",
+   "Reconcile against the existing database, link duplicates, and process only the genuinely new cases",
+   "Wait for FDA to clarify the duplicates"
+  ],
+  "answer": 2,
+  "rationale": "Reconciliation against existing cases is mandatory; the E2B framework supports this through worldwide unique case identifiers."
+ },
+ {
+  "id": "2.4",
+  "chapter": 2,
+  "chapterTitle": "Sources of ICSRs",
+  "stem": "Causality on a solicited case is:",
+  "options": [
+   "Implied related, like spontaneous",
+   "Assessed by the HCP, like a clinical trial case",
+   "Always not related",
+   "Decided by the company medical reviewer with no reporter input"
+  ],
+  "answer": 1,
+  "rationale": "Solicited cases are treated like clinical study reports — causality is HCP-assessed, not assumed."
+ },
+ {
+  "id": "2.5",
+  "chapter": 2,
+  "chapterTitle": "Sources of ICSRs",
+  "stem": "A company's branded Twitter account is actively monitored. A patient posts about a serious adverse event. Day Zero is:",
+  "options": [
+   "The date of the patient's Twitter post",
+   "The date the medical information team identifies the post",
+   "The date the patient followed up with their doctor",
+   "The end of the calendar week"
+  ],
+  "answer": 1,
+  "rationale": "Day Zero for digital media monitoring is the date of company identification of the relevant content."
+ },
+ {
+  "id": "3.1",
+  "chapter": 3,
+  "chapterTitle": "Case Validity",
+  "stem": "Which of the following constitutes the minimum for an identifiable patient under ICH validity criteria?",
+  "options": [
+   "Full name and date of birth",
+   "Patient identification number assigned by the reporting institution",
+   "Demographic descriptors sufficient to distinguish this patient from others (e.g., age, sex)",
+   "A signed authorization from the patient"
+  ],
+  "answer": 2,
+  "rationale": "Patient identifiability requires distinguishing demographic information; full name and DOB are not required."
+ },
+ {
+  "id": "3.2",
+  "chapter": 3,
+  "chapterTitle": "Case Validity",
+  "stem": "A consumer reports an AE but refuses to provide contact information. Three follow-up attempts via the original communication channel are unsuccessful. The correct action is:",
+  "options": [
+   "Treat the case as valid using the originally submitted information",
+   "Hold as pending invalid; close after a defined period if validity is never achieved",
+   "Submit the case to FAERS as anonymous",
+   "Discard the report immediately"
+  ],
+  "answer": 1,
+  "rationale": "Pending invalid status with documented follow-up attempts; closure occurs only after the defined SOP period (commonly 90 days)."
+ },
+ {
+  "id": "3.3",
+  "chapter": 3,
+  "chapterTitle": "Case Validity",
+  "stem": "A serious case is identified independently in the company database from three sources: patient call, regulator extract, and HCP report. Day Zero is:",
+  "options": [
+   "The earliest of the three source dates",
+   "The latest of the three source dates",
+   "The date the third source confirms the case",
+   "The date the medical reviewer determines all three describe the same case"
+  ],
+  "answer": 0,
+  "rationale": "Day Zero attaches to the earliest company awareness of the valid case, regardless of how many additional sources later confirm it."
+ },
+ {
+  "id": "3.4",
+  "chapter": 3,
+  "chapterTitle": "Case Validity",
+  "stem": "Validity criteria are required for an ICSR because:",
+  "options": [
+   "They simplify database entry",
+   "They define the threshold at which the reporting clock starts and the case enters regulatory submission obligations",
+   "They are required by US 21 CFR but not by EU GVP",
+   "They distinguish serious from non-serious cases"
+  ],
+  "answer": 1,
+  "rationale": "Validity is the regulatory gate for clock initiation and submission obligation, harmonized across ICH regions."
+ },
+ {
+  "id": "3.5",
+  "chapter": 3,
+  "chapterTitle": "Case Validity",
+  "stem": "Which of the following would render a case invalid?",
+  "options": [
+   "Missing patient ZIP code",
+   "Reporter declining to provide qualification",
+   "Event described only as \"felt strange\"",
+   "Suspect product administered three years before the report"
+  ],
+  "answer": 2,
+  "rationale": "The event must be describable in terms allowing MedDRA coding. ZIP code is not required; reporter qualification is not strictly required (especially for consumer reports); time elapsed since exposure does not invalidate."
+ },
+ {
+  "id": "4.1",
+  "chapter": 4,
+  "chapterTitle": "Day Zero and Reporting Timelines",
+  "stem": "Day Zero on a postmarket spontaneous case is:",
+  "options": [
+   "The date the safety database creates the case record",
+   "The earliest date any company employee or contractually bound party became aware of the valid case",
+   "The date the QPPV signs off",
+   "The date of the adverse event"
+  ],
+  "answer": 1,
+  "rationale": "Day Zero anchors to the earliest awareness of a valid case anywhere in the company organization."
+ },
+ {
+  "id": "4.2",
+  "chapter": 4,
+  "chapterTitle": "Day Zero and Reporting Timelines",
+  "stem": "A French affiliate receives a serious AE report on Friday and forwards it to the global safety database the following Tuesday. The reporting clock for global submission:",
+  "options": [
+   "Started when the global database received the case",
+   "Started Friday and is now four days into the clock",
+   "Pauses for the weekend",
+   "Resets when the case is QC'd"
+  ],
+  "answer": 1,
+  "rationale": "Internal routing delays do not pause the clock; the clock started at the affiliate's awareness on Friday."
+ },
+ {
+  "id": "4.3",
+  "chapter": 4,
+  "chapterTitle": "Day Zero and Reporting Timelines",
+  "stem": "A 15-day case under US 21 CFR 314.80 must be submitted within:",
+  "options": [
+   "15 business days of Day Zero",
+   "15 calendar days of Day Zero, with weekends and holidays counted",
+   "15 working days of receipt by the safety database",
+   "15 days of medical review completion"
+  ],
+  "answer": 1,
+  "rationale": "Calendar days are the standard; weekends and holidays count."
+ },
+ {
+  "id": "4.4",
+  "chapter": 4,
+  "chapterTitle": "Day Zero and Reporting Timelines",
+  "stem": "Which of the following triggers a new expedited reporting clock?",
+  "options": [
+   "A typographical correction to the narrative",
+   "Death added as outcome on a previously non-fatal serious case",
+   "A new lab value reported within reference range",
+   "Updated patient address"
+  ],
+  "answer": 1,
+  "rationale": "Significant follow-up information — particularly outcome upgrades to fatal — triggers a new expedited submission with its own clock."
+ },
+ {
+  "id": "4.5",
+  "chapter": 4,
+  "chapterTitle": "Day Zero and Reporting Timelines",
+  "stem": "A SUSAR with fatal outcome arising in a US IND study must be submitted in:",
+  "options": [
+   "7 calendar days from Day Zero",
+   "15 calendar days from Day Zero",
+   "30 calendar days from Day Zero",
+   "The next quarterly DSUR"
+  ],
+  "answer": 0,
+  "rationale": "21 CFR 312.32 requires fatal/life-threatening SUSARs to be submitted within 7 calendar days, with a 15-day follow-up."
+ },
+ {
+  "id": "5.1",
+  "chapter": 5,
+  "chapterTitle": "Event Coding (MedDRA)",
+  "stem": "A reporter describes \"shortness of breath, chest pain, and a CT-confirmed diagnosis of pulmonary embolism.\" The correct primary coding is:",
+  "options": [
+   "Dyspnoea + Chest pain + Pulmonary embolism (three PTs)",
+   "Pulmonary embolism only",
+   "Dyspnoea + Chest pain only",
+   "Pulmonary thrombosis only"
+  ],
+  "answer": 1,
+  "rationale": "Diagnosis preferred over symptoms; code only Pulmonary embolism."
+ },
+ {
+  "id": "5.2",
+  "chapter": 5,
+  "chapterTitle": "Event Coding (MedDRA)",
+  "stem": "A patient's ALT is reported as 350 U/L (upper limit of normal 56) with no clinical symptoms or diagnosis from the reporter. The correct coding is:",
+  "options": [
+   "Hepatitis",
+   "Drug-induced liver injury",
+   "Alanine aminotransferase increased",
+   "Hepatic failure"
+  ],
+  "answer": 2,
+  "rationale": "Without clinical interpretation by the reporter, the lab abnormality is coded as the Investigation PT."
+ },
+ {
+  "id": "5.3",
+  "chapter": 5,
+  "chapterTitle": "Event Coding (MedDRA)",
+  "stem": "Which of the following is the MedDRA coding level for AE reporting?",
+  "options": [
+   "SOC",
+   "HLGT",
+   "PT",
+   "LLT"
+  ],
+  "answer": 2,
+  "rationale": "PTs are the reporting level. LLTs are the coding level (reflecting reporter language); the LLT maps to a PT for reporting."
+ },
+ {
+  "id": "5.4",
+  "chapter": 5,
+  "chapterTitle": "Event Coding (MedDRA)",
+  "stem": "When the reporter states \"the patient died\" with no cause of death identified, the correct event coding is:",
+  "options": [
+   "Death (PT)",
+   "Sudden death",
+   "Outcome only — no event PT",
+   "Cardiac arrest"
+  ],
+  "answer": 0,
+  "rationale": "Death PT is used when no cause is identified. When a cause is known, the cause is coded and the fatal outcome is captured separately."
+ },
+ {
+  "id": "5.5",
+  "chapter": 5,
+  "chapterTitle": "Event Coding (MedDRA)",
+  "stem": "SMQs (Standardised MedDRA Queries) are primarily used for:",
+  "options": [
+   "Coding individual cases",
+   "Signal detection and aggregate analyses",
+   "Validating reporter qualifications",
+   "Selecting the SOC for an LLT"
+  ],
+  "answer": 1,
+  "rationale": "SMQs are validated groupings used in signal detection and aggregate analyses, not in individual case coding."
+ },
+ {
+  "id": "6.1",
+  "chapter": 6,
+  "chapterTitle": "Seriousness",
+  "stem": "A patient is admitted overnight for an elective knee replacement scheduled six weeks earlier. During the stay, a possible drug-related rash develops but does not extend the stay. The admission itself:",
+  "options": [
+   "Counts toward seriousness because the patient was hospitalized",
+   "Does not count, because it was pre-planned for a reason unrelated to the event",
+   "Counts toward seriousness because the rash occurred in hospital",
+   "Counts toward seriousness only if the rash was severe"
+  ],
+  "answer": 1,
+  "rationale": "B. A pre-planned admission for a reason unrelated to the event is excluded from the hospitalization criterion. Had the rash prolonged the stay, the prolongation would count. Severity (D) is not a seriousness criterion."
+ },
+ {
+  "id": "6.2",
+  "chapter": 6,
+  "chapterTitle": "Seriousness",
+  "stem": "Which of the following events is on the EMA IME list and should generally be considered serious even without hospitalization?",
+  "options": [
+   "Mild headache",
+   "Bronchospasm requiring ED intervention",
+   "Common cold",
+   "Mild dyspepsia"
+  ],
+  "answer": 1,
+  "rationale": "Bronchospasm with ED intervention is an IME-list event."
+ },
+ {
+  "id": "6.3",
+  "chapter": 6,
+  "chapterTitle": "Seriousness",
+  "stem": "Seriousness is assessed at:",
+  "options": [
+   "Case level only",
+   "Event level, with case-level derived from the maximum of event-level",
+   "Reporter discretion",
+   "Sponsor's annual review"
+  ],
+  "answer": 1,
+  "rationale": "Event-level assessment, with case-level being the maximum."
+ },
+ {
+  "id": "6.4",
+  "chapter": 6,
+  "chapterTitle": "Seriousness",
+  "stem": "A non-serious case is upgraded to serious on follow-up. The new expedited reporting clock starts:",
+  "options": [
+   "From the original Day Zero",
+   "From the date of the new information",
+   "From the next quarterly cycle",
+   "There is no new clock — the original report stands"
+  ],
+  "answer": 1,
+  "rationale": "The upgrade triggers a new clock anchored to the date of new information."
+ },
+ {
+  "id": "6.5",
+  "chapter": 6,
+  "chapterTitle": "Seriousness",
+  "stem": "\"Life-threatening\" as a seriousness criterion means:",
+  "options": [
+   "The event could have been fatal if untreated",
+   "The patient was at risk of death at the time the event occurred",
+   "The event involved cardiovascular or respiratory systems",
+   "Any event with potential long-term consequences"
+  ],
+  "answer": 1,
+  "rationale": "Life-threatening is assessed at the time of the event, not hypothetically."
+ },
+ {
+  "id": "7.1",
+  "chapter": 7,
+  "chapterTitle": "Severity vs Seriousness",
+  "stem": "Severity and seriousness are:",
+  "options": [
+   "Synonyms in pharmacovigilance",
+   "Independent dimensions captured separately in the ICSR",
+   "Severity is regulatory; seriousness is clinical",
+   "Used interchangeably in ICH guidelines"
+  ],
+  "answer": 1,
+  "rationale": "Severity is intensity (clinical); seriousness is regulatory classification."
+ },
+ {
+  "id": "7.2",
+  "chapter": 7,
+  "chapterTitle": "Severity vs Seriousness",
+  "stem": "A reporter rates an event as \"severe.\" The case has no hospitalization, is not life-threatening, and is not on the IME list. The case is:",
+  "options": [
+   "Always serious because severity is severe",
+   "Non-serious; severity does not by itself trigger seriousness",
+   "Serious only if duration exceeds 7 days",
+   "Serious only if reported by an HCP"
+  ],
+  "answer": 1,
+  "rationale": "Severity does not by itself confer seriousness."
+ },
+ {
+  "id": "7.3",
+  "chapter": 7,
+  "chapterTitle": "Severity vs Seriousness",
+  "stem": "A patient develops a mild rash that subsequently progresses to Stevens-Johnson syndrome. At initial presentation:",
+  "options": [
+   "Severity is mild and seriousness is non-serious",
+   "Severity is mild but seriousness is serious due to IME/DME considerations",
+   "Severity is severe by definition because SJS is dangerous",
+   "Severity should be revised retrospectively"
+  ],
+  "answer": 1,
+  "rationale": "SJS is a DME and IME-list event; the case is serious from initial recognition that SJS is a possibility."
+ },
+ {
+  "id": "7.4",
+  "chapter": 7,
+  "chapterTitle": "Severity vs Seriousness",
+  "stem": "CTCAE Grade 3 events are:",
+  "options": [
+   "Always serious by ICH E2A criteria",
+   "Always non-serious",
+   "Sometimes serious, depending on whether E2A criteria are met",
+   "Used only in IND safety reports"
+  ],
+  "answer": 2,
+  "rationale": "Grade 3 (severe) does not automatically equal serious. Grade 4 (life-threatening) typically does."
+ },
+ {
+  "id": "7.5",
+  "chapter": 7,
+  "chapterTitle": "Severity vs Seriousness",
+  "stem": "Seriousness is determined by:",
+  "options": [
+   "The reporter",
+   "The sponsor / MAH against ICH E2A criteria",
+   "The patient's family",
+   "The treating physician's clinical judgment"
+  ],
+  "answer": 1,
+  "rationale": "Seriousness is a sponsor / MAH determination, not delegated to the reporter or patient."
+ },
+ {
+  "id": "8.1",
+  "chapter": 8,
+  "chapterTitle": "Causality Assessment",
+  "stem": "A SUSAR is defined as:",
+  "options": [
+   "Any serious adverse reaction",
+   "A serious, unexpected, suspected adverse reaction",
+   "A spontaneous, unexpected, severe adverse reaction",
+   "A study-unblinded serious adverse reaction"
+  ],
+  "answer": 1,
+  "rationale": "SUSAR = Serious + Unexpected + Suspected to be related."
+ },
+ {
+  "id": "8.2",
+  "chapter": 8,
+  "chapterTitle": "Causality Assessment",
+  "stem": "Per ICH E2D, on a spontaneous report, causality is:",
+  "options": [
+   "Always assessed by the sponsor and never assumed",
+   "Implicitly suspected unless explicitly denied by the reporter",
+   "Determined only after follow-up with the reporter",
+   "Not relevant for reporting purposes"
+  ],
+  "answer": 1,
+  "rationale": "Spontaneous report = implicit suspected relationship unless denied."
+ },
+ {
+  "id": "8.3",
+  "chapter": 8,
+  "chapterTitle": "Causality Assessment",
+  "stem": "A reporter says \"probably not related.\" The sponsor's safety physician concludes \"possibly related\" based on temporal proximity and lack of alternative cause. The case is reported with causality:",
+  "options": [
+   "As stated by the reporter",
+   "As stated by the sponsor (the more conservative position)",
+   "Causality is averaged",
+   "Causality is left blank"
+  ],
+  "answer": 1,
+  "rationale": "The more conservative (more related) assessment governs reportability; both are captured."
+ },
+ {
+  "id": "8.4",
+  "chapter": 8,
+  "chapterTitle": "Causality Assessment",
+  "stem": "Positive rechallenge means:",
+  "options": [
+   "The drug was readministered and the event recurred",
+   "The drug was stopped and the event resolved",
+   "The drug was substituted with placebo",
+   "The reporter confirmed the diagnosis"
+  ],
+  "answer": 0,
+  "rationale": "Rechallenge = re-administration; positive rechallenge = recurrence on re-administration."
+ },
+ {
+  "id": "8.5",
+  "chapter": 8,
+  "chapterTitle": "Causality Assessment",
+  "stem": "Confounding by indication refers to:",
+  "options": [
+   "The drug masking the disease",
+   "The disease being treated also causing the event",
+   "The reporter's bias",
+   "Multiple drugs causing the same event"
+  ],
+  "answer": 1,
+  "rationale": "Confounding by indication = the disease itself is associated with the outcome, independently of treatment."
+ },
+ {
+  "id": "9.1",
+  "chapter": 9,
+  "chapterTitle": "Case Narrative Writing",
+  "stem": "A case narrative is written in:",
+  "options": [
+   "First person, present tense",
+   "Third person, past tense",
+   "Third person, present tense",
+   "First person, future tense"
+  ],
+  "answer": 1,
+  "rationale": "Past tense, third person, plain medical English."
+ },
+ {
+  "id": "9.2",
+  "chapter": 9,
+  "chapterTitle": "Case Narrative Writing",
+  "stem": "Lab values in a narrative should be reported with:",
+  "options": [
+   "Numerical value only",
+   "Numerical value and units",
+   "Numerical value, units, and reference range",
+   "Reference range only"
+  ],
+  "answer": 2,
+  "rationale": "Lab values without units and reference ranges are uninterpretable to the reader."
+ },
+ {
+  "id": "9.3",
+  "chapter": 9,
+  "chapterTitle": "Case Narrative Writing",
+  "stem": "Which of the following is appropriate language in a case narrative?",
+  "options": [
+   "\"The drug was well tolerated overall\"",
+   "\"The patient developed dyspnea on Day 8\"",
+   "\"There is no evidence of safety concerns\"",
+   "\"The reaction was likely benign\""
+  ],
+  "answer": 1,
+  "rationale": "Narratives use neutral, factual clinical description."
+ },
+ {
+  "id": "9.4",
+  "chapter": 9,
+  "chapterTitle": "Case Narrative Writing",
+  "stem": "When a diagnosis is provided by the reporter, the narrative should:",
+  "options": [
+   "List only the symptoms",
+   "Use the diagnosis as the headline event and contextualize symptoms within the diagnosis",
+   "Repeat both diagnosis and all symptoms in equal detail",
+   "Substitute the company's preferred diagnosis"
+  ],
+  "answer": 1,
+  "rationale": "The diagnosis is the headline; symptoms are contextual."
+ },
+ {
+  "id": "9.5",
+  "chapter": 9,
+  "chapterTitle": "Case Narrative Writing",
+  "stem": "A pregnancy narrative must include:",
+  "options": [
+   "Patient employment status",
+   "Exposure timing relative to LMP or gestational age",
+   "Family history three generations back",
+   "Insurance details"
+  ],
+  "answer": 1,
+  "rationale": "Gestational timing of exposure is essential to teratogenicity assessment."
+ },
+ {
+  "id": "10.1",
+  "chapter": 10,
+  "chapterTitle": "Postmarket vs Clinical Development",
+  "stem": "A SUSAR is reportable in:",
+  "options": [
+   "Postmarket only",
+   "Clinical development only",
+   "Both settings under the same name",
+   "Postmarket only after market authorization withdrawal"
+  ],
+  "answer": 1,
+  "rationale": "SUSAR is a clinical development term; postmarket uses different terminology (serious + unexpected suspected adverse reaction, but the SUSAR acronym is reserved for trials)."
+ },
+ {
+  "id": "10.2",
+  "chapter": 10,
+  "chapterTitle": "Postmarket vs Clinical Development",
+  "stem": "The reference document for expectedness assessment in a clinical trial is:",
+  "options": [
+   "The full Investigator's Brochure",
+   "The Reference Safety Information section of the IB",
+   "The CCDS",
+   "The USPI"
+  ],
+  "answer": 1,
+  "rationale": "The RSI is a specific designated section, not the full IB."
+ },
+ {
+  "id": "10.3",
+  "chapter": 10,
+  "chapterTitle": "Postmarket vs Clinical Development",
+  "stem": "Default causality on a postmarket spontaneous report is:",
+  "options": [
+   "Not related, unless reporter says otherwise",
+   "Implicitly suspected related, unless reporter explicitly denies",
+   "Always probable",
+   "Determined by the patient"
+  ],
+  "answer": 1,
+  "rationale": "ICH E2D establishes implicit suspected relationship."
+ },
+ {
+  "id": "10.4",
+  "chapter": 10,
+  "chapterTitle": "Postmarket vs Clinical Development",
+  "stem": "A 7-day reporting clock applies to:",
+  "options": [
+   "All serious cases in the EU",
+   "All cases reported via MedWatch",
+   "Fatal/life-threatening SUSARs in IND and EU CTR settings",
+   "Pregnancy reports"
+  ],
+  "answer": 2,
+  "rationale": "The 7-day clock is for fatal/life-threatening SUSARs in trial settings."
+ },
+ {
+  "id": "10.5",
+  "chapter": 10,
+  "chapterTitle": "Postmarket vs Clinical Development",
+  "stem": "Aggregate reporting for clinical development uses:",
+  "options": [
+   "PSUR",
+   "PADER",
+   "DSUR",
+   "CIOMS-I"
+  ],
+  "answer": 2,
+  "rationale": "DSUR is the development-phase aggregate report."
+ },
+ {
+  "id": "11.1",
+  "chapter": 11,
+  "chapterTitle": "Quality, Compliance, and Audit Readiness",
+  "stem": "The Pharmacovigilance System Master File (PSMF) is:",
+  "options": [
+   "A document required only at MAH renewal",
+   "A continuously updated description of the EU MAH's PV system per GVP Module II",
+   "The submission of all PSURs in one volume",
+   "The training record of all PV staff"
+  ],
+  "answer": 1,
+  "rationale": "The PSMF is a continuously maintained \"live\" document."
+ },
+ {
+  "id": "11.2",
+  "chapter": 11,
+  "chapterTitle": "Quality, Compliance, and Audit Readiness",
+  "stem": "Late case investigation requires:",
+  "options": [
+   "Apology to the regulator",
+   "Documented root cause analysis with CAPA where indicated",
+   "Resubmission of all cases for the calendar year",
+   "Replacement of the QPPV"
+  ],
+  "answer": 1,
+  "rationale": "Root cause and CAPA are the standard response."
+ },
+ {
+  "id": "11.3",
+  "chapter": 11,
+  "chapterTitle": "Quality, Compliance, and Audit Readiness",
+  "stem": "The audit trail must capture:",
+  "options": [
+   "Only changes to the narrative",
+   "Only changes by the QPPV",
+   "Every change with user, timestamp, and before/after values",
+   "Only changes that affect reportability"
+  ],
+  "answer": 2,
+  "rationale": "Comprehensive change capture is the standard."
+ },
+ {
+  "id": "11.4",
+  "chapter": 11,
+  "chapterTitle": "Quality, Compliance, and Audit Readiness",
+  "stem": "A regulator inspection identifies a critical finding. The most likely consequence is:",
+  "options": [
+   "A note in the inspection report only",
+   "Warning letter, consent decree, or marketing suspension",
+   "Mandatory replacement of the QPPV",
+   "Public disclosure of the company's submission rate"
+  ],
+  "answer": 1,
+  "rationale": "Critical findings produce significant regulatory action."
+ },
+ {
+  "id": "11.5",
+  "chapter": 11,
+  "chapterTitle": "Quality, Compliance, and Audit Readiness",
+  "stem": "Reconciliation between the safety database and an external source (vendor, partner, regulator extract) is intended to:",
+  "options": [
+   "Reduce manual data entry",
+   "Verify that all valid cases captured externally are present in the safety database",
+   "Deduplicate the safety database",
+   "Train new staff"
+  ],
+  "answer": 1,
+  "rationale": "Reconciliation is the verification mechanism for completeness."
+ }
+]
