@@ -578,7 +578,7 @@ const f = { met: flag('g', 'Present'), accepted: flag('g', 'Accepted — documen
 return `<tr><td><b>${esc(NAMES[k])}</b>${s.why ? `<div class="hint">${esc(s.why)}</div>` : ''}</td><td>${f}</td></tr>`;
 }).join('');
 if (!ev.allSet && !Object.values(sel).some(Boolean)) {
-$('v_out').innerHTML = '<p class="hint">Select what the source document provides for each of the four elements. Cite the text or data field that supports each one (§3.3 step 2).</p>' + renderDup();
+$('v_out').innerHTML = '<p class="hint">Select what the source document provides for each of the four elements. Cite the text or data field that supports each one (§3.3 step 2).</p>'; renderDup();
 return;
 }
 if (ev.valid) {
