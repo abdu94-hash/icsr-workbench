@@ -1,6 +1,6 @@
 # ICSR Workbench
 
-Free educational companion tool to *Mastering the ICSR: Case Processing in Modern Pharmacovigilance* by Abdulhafez A. Selim, MD, PhD (Dr. Hafez Selim; Selim Medical Press, 2026).
+Free educational companion tool to *Mastering the ICSR: Case Processing in Modern Pharmacovigilance* by Dr. Hafez Selim, MD, PhD (Selim Medical Press, 2026).
 
 **Live:** https://abdu94-hash.github.io/icsr-workbench/
 
